@@ -1,4 +1,4 @@
-## Looker Studio Dashboard
+# Power BI Dashboard
 A collection of interactive dashboards built using **Power BI** to generate data-driven insights. 
 
 ## Project List
