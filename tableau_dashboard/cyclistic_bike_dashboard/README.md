@@ -41,5 +41,5 @@ It provides insights into ride volume, duration trends, and usage behavior acros
 
 ---
 
-🧠 *Built with Tableau Public | Dataset: Cyclistic Bike Share (2020–2021)*  
-📅 *Last updated: November 2025*
+*Built with Tableau Public | Dataset: Cyclistic Bike Share (2020–2021)*  
+*Last updated: November 2025*
