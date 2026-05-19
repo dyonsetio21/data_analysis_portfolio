@@ -15,19 +15,29 @@ The database consists of the following tables:
 
 ## Key Insights
 ### **1. Top 3 Customers Based on Total Orders**
-The top customers are those with the highest total spending. They can be targeted for loyalty programs.
+![result1](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/TechCorp_Analysis/results/Top_3_Customers_Based_on_Total_Orders.png)
+
+The customers with the highest total transaction amounts are **John Doe**, **Jane Smith**, and **Michael Brown**. They could be prime targets for a customer loyalty program aimed at increasing customer retention and their transaction values.
 
 ### **2. Average Order Value for Each Customer**
-It helps in understanding customer spending patterns and personalizing offers.
+![result2](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/TechCorp_Analysis/results/Average_Order_Value_for_Each_Customer.png)
+
+The average order value indicates that customers tend to spend approximately **$150–$1,500 per transaction**, which can serve as a reference when determining promotional or discount strategies.
 
 ### **3. Employees Handling More Than 4 Resolved Support Tickets**
-Identifies top-performing customer support employees.
+![result3](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/TechCorp_Analysis/results/Employees_Handling_More_Than_4_Resolved_Support_Tickets.png)
+
+The employee with the most tickets resolved is **Alice Williams**, demonstrating that she is a highly productive customer support agent.
 
 ### **4. Products That Have Never Been Ordered**
-These products may need better marketing or adjustments in pricing.
+![result4](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/TechCorp_Analysis/results/Products_That_Have_Never_Been_Ordered.png)
+
+Products such as **wireless earphones** have never been ordered. The company may want to consider new marketing strategies or special promotions to boost sales.
 
 ### **5. Total Revenue from All Orders**
-Helps in financial reporting and business growth analysis.
+![result5](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/TechCorp_Analysis/results/Total_Revenue_from_All_Orders.png)
+
+The total revenue from all orders is $5,145, which can be used to compare against the monthly revenue target.
 
 ## Medium Article
 For a more detailed explanation, check out my Medium article (in Bahasa):  
