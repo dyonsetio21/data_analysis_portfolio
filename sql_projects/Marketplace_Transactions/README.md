@@ -15,24 +15,29 @@ This project analyzes marketplace transaction data using SQL to identify trends 
 MySkill provided the dataset used.
 
 ## Key Insights:
-**Monthly Sales Trends (2021)**
+### **Monthly Sales Trends (2021)**
+![result1](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/Marketplace_Transactions/results/Monthly_Sales_Trends_(2021).png)
 - August had the highest total sales, followed by December and October.
 - Monthly transactions varied significantly, with the highest month having nearly 5x the sales of the lowest month.
 
-**Top-Selling Product Categories (2022)**
+### **Top-Selling Product Categories (2022)**
+![result2](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/Marketplace_Transactions/results/Top_Selling_Product_Categories_(2022).png)
 - *Mobiles & Tablets* contributed the highest revenue, indicating strong market demand for electronic devices.
 
-**Sales Comparison (2021 vs. 2022)**
+### **Sales Comparison (2021 vs. 2022)**
+![result3](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/Marketplace_Transactions/results/Sales_Comparison_(2021_vs_2022).png)
 - The overall transaction value increased in 2022 compared to 2021.
 - Electronics and fashion categories were the key growth drivers.
 - However, categories like Books and Others experienced a decline in sales, requiring further analysis.
 
-**Top Payment Methods (2022)**
+### **Top Payment Methods (2022)**
+![result4](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/Marketplace_Transactions/results/Top_Payment_Methods_(2022).png)
 - Despite the rise of digital payments, *Cash on Delivery (COD)* remained the most popular option.
 - Digital platforms like *Payaxis*, *Easypay*, and *Jazzwallet* showed increased usage.
 - Customer credit options provided flexibility to consumers.
 
-**Top-Selling Brands (2022)**
+### **Top-Selling Brands (2022)**
+![result5](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/sql_projects/Marketplace_Transactions/results/Top_Selling_Brands_(2022).png)
 - *Samsung* and *Apple* led the electronics sales market, followed by *Sony*, *Huawei*, and *Lenovo*.
 - Competition among top brands remains strong, with evolving market dynamics.
 
