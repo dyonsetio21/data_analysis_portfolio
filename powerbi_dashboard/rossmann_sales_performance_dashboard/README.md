@@ -1,4 +1,4 @@
-# Rossmann Sales Perorrmance Dashboard - Retail Sales Patterns
+# Rossmann Sales Performance Dashboard - Retail Sales Patterns
 
 ## Project Overview
 This project analyzes sales data from Rossmann, a retail store chain, to understand what drives sales performance. The data was explored using Microsoft Excel and visualized through an interactive dashboard in Microsoft Power BI.
@@ -8,7 +8,7 @@ The main questions this project tried to answer:
 - Which store type performs the best?
 - What days of the week have the highest sales?
 - Are there seasonal sales patterns?
-- Does school holiday affect sales?
+- Do school holidays affect sales?
 
 ## Dashboard Overview
 ![rossmann_sales_performance_dashboard](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/powerbi_dashboard/rossmann_sales_performance_dashboard/dashboard_png/dashboard_rossmann.png)
