@@ -76,4 +76,6 @@ Countries with higher education levels tend to have greater internet adoption, a
 Some countries achieve nearly universal internet access even without having the highest GDP per capita, indicating that infrastructure and digital policy can also be significant factors.
 
 ## Dashboard
-coming soon
+![digital_devide_dashboard](https://github.com/dyonsetio21/data_analysis_portfolio/blob/main/powerbi_dashboard/digital_devide_dashboard/digital_devide_dashboard.png)
+
+View full report: [Click here](https://github.com/dyonsetio21/data_analysis_portfolio/tree/main/powerbi_dashboard/digital_devide_dashboard)
