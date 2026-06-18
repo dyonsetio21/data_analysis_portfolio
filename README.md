@@ -10,15 +10,13 @@ This repository showcases my skills in data analysis and visualisation, featurin
 - **[Tableau_Dashboard](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/tableau_dashboard)** – Tableau dashboards  
 
 ### Featured Work  
-#### 1. Call Center Performance Dashboard (Power BI)  
-![Dashboard Screenshot](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/powerbi_dashboard/call_center_dashboard/images/Call%20Center%20Dashboard.png)  
-**View Full Report:** [Click here](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/powerbi_dashboard/call_center_dashboard)  
+#### 1. Analyzes the relationship between internet adoption, GDP per capita, education, and population
+- **Tools:** SQL (Google BigQuery)
+- **View Full Report:** [Click here](https://github.com/dyonsetio21/data_analysis_portfolio/tree/main/sql_projects/digital_devide)
 
-#### 2. Analyzing Reactions on Social Media: Extracting Insights from Datasets  
-- **Dataset:** Reaction.csv  
-- **Tools:** Python (`pandas`, `matplotlib`, `seaborn`)  
-- **View Full Report:** [Click here](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/python_projects/reaction_analysis)  
-- **View Notebook:** [Click here](https://github.com/dyonsetio21/data_analytics_portfolio/blob/main/python_projects/reaction_analysis/reaction_analysis.ipynb)   
+#### 2. Global digital divide dashboard (Power BI)  
+![digital_devide_dashboard](https://github.com/dyonsetio21/data_analysis_portfolio/blob/main/powerbi_dashboard/digital_devide_dashboard/digital_devide_dashboard.png) 
+**View Full Report:** [Click here](https://github.com/dyonsetio21/data_analysis_portfolio/tree/main/powerbi_dashboard/digital_devide_dashboard)  
 
 ---
 
