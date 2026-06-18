@@ -5,18 +5,24 @@ A collection of SQL-based projects focusing on data cleaning, processing, and an
 ## Project List  
 
 ### **Marketplace Transactions Analysis**  
-*Analyzed marketplace transaction data to understand sales trends, product categories, and the most popular payment methods.*  
+Analyzed marketplace transaction data to understand sales trends, product categories, and the most popular payment methods.
 - **Tools:** Excel, BigQuery  
 - **Link:** [Marketplace Transactions Analysis](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/sql_projects/Marketplace_Transactions)  
 
 ### **Data Science Salaries Analysis**  
-*Analyzed salaries in the Data Science industry by experience level, job type, and location.*  
+Analyzed salaries in the Data Science industry by experience level, job type, and location.
 - **Tools:** Excel, BigQuery
 - **Link:** [Data Science Salaries Analysis](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/sql_projects/Data_Science_Salaries)  
 
 ### **TechCorp SQL Analysis**
-*Analyzed the business performance of TechCorp, an e-commerce company specializing in electronic products.*
+Analyzed the business performance of TechCorp, an e-commerce company specializing in electronic products.
 - **Tools:** MySQL
 - **Link:** [TechCorp Analysis](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/sql_projects/TechCorp_Analysis)
+
+### **Global Digital Divide**
+Analyzes the relationship between internet adoption, GDP per capita, education, and population.
+- **Tools**: Excel, BigQuery
+- **Link**: [Digital Divide](https://github.com/dyonsetio21/data_analysis_portfolio/tree/main/sql_projects/digital_devide)
+
 ---
 **Each project includes a README with detailed explanations of the analysis.**  
