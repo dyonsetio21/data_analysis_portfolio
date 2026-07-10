@@ -169,7 +169,7 @@ Based on the analysis:
 
 ## Tableau Dashboard
 
-[Cyclistic Rider Behavior Dashboard (Tableau Public)]((https://public.tableau.com/views/CyclisticRiderBehavior_17620875398590/CyclisticRiderBehaviorDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[Cyclistic Rider Behavior Dashboard (Tableau Public)](https://public.tableau.com/views/CyclisticRiderBehavior_17620875398590/CyclisticRiderBehaviorDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Dataset
 
