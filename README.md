@@ -1,24 +1,57 @@
-# Data Analysis Portfolio  
-  
-This repository showcases my skills in data analysis and visualisation, featuring my work in **SQL, Python, Power BI, Looker Studio and Tableau**.  
+# Data Analytics Portfolio
 
-### Portfolio Categories  
-- **[SQL Projects](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/sql_projects)** – Querying, data cleaning, and analysis  
-- **[Python Projects](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/python_projects)** – Exploratory Data Analysis (EDA), data cleaning, and advanced analysis  
-- **[Power BI Dashboards](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/powerbi_dashboard)** – Interactive business intelligence dashboards  
-- **[Looker Studio Dashboard](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/lookerstudio_dashboard)** – Google Looker Studio dashboards
-- **[Tableau_Dashboard](https://github.com/dyonsetio21/data_analytics_portfolio/tree/main/tableau_dashboard)** – Tableau dashboards  
+Welcome to my Data Analytics Portfolio!
 
-### Featured Work  
-#### 1. Analyzes the relationship between internet adoption, GDP per capita, education, and population
-- **Tools:** SQL (Google BigQuery)
-- **View Full Report:** [Click here](https://github.com/dyonsetio21/data_analysis_portfolio/tree/main/sql_projects/digital_devide)
-
-#### 2. Global digital divide dashboard (Power BI)  
-![digital_devide_dashboard](https://github.com/dyonsetio21/data_analysis_portfolio/blob/main/powerbi_dashboard/digital_devide_dashboard/digital_devide_dashboard.png) 
-**View Full Report:** [Click here](https://github.com/dyonsetio21/data_analysis_portfolio/tree/main/powerbi_dashboard/digital_devide_dashboard)  
+This repository showcases a collection of end-to-end data analytics projects covering various business domains. Each project demonstrates the complete analytics workflow, from data cleaning and exploration to visualization and business recommendations, using tools such as SQL, Python, Power BI, Tableau, and Looker Studio.
 
 ---
 
-### Connect With Me  
-[LinkedIn](https://www.linkedin.com/in/dyonsetio/) | [Email](dyon.setio21@gmail.com)  
+## Tools & Technologies
+
+- SQL (Google BigQuery & MySQL)
+- Python (Pandas, Matplotlib)
+- Microsoft Power BI
+- Tableau Public
+- Google Looker Studio
+- Microsoft Excel
+
+---
+
+# Project Portfolio
+
+| Project | Domain | Tools | Description |
+|---------|--------|-------|-------------|
+| **[🌍 Global Digital Divide Analysis](./08_digital_divide_analysis)** | Socioeconomic | SQL, Power BI | Explores global internet adoption trends and their relationship with GDP per capita, education, and population across 221 countries (2010–2024). |
+| **[🚲 Cyclistic Bike-Share Rider Behavior Analysis](./06_cyclistic_bike_share_analysis)** | Transportation | Python, Tableau | Analyzes behavioral differences between casual riders and annual members to support membership growth strategies. |
+| **[🛒 Marketplace Sales Analysis](./01_marketplace_sales_analysis)** | E-commerce | SQL, Python, Looker Studio | End-to-end analysis of marketplace transaction data, including SQL analysis, Python EDA, and interactive dashboard development. |
+| **[📈 Rossmann Sales Performance Analysis](./07_rossmann_sales_performance)** | Retail | Excel, Power BI | Evaluates the impact of promotions, store types, weekdays, and seasonal patterns on retail sales performance. |
+| **[☎️ Call Center Performance Dashboard](./04_call_center_performance_dashboard)** | Customer Service | Power BI | Interactive dashboard for monitoring operational KPIs, agent performance, customer satisfaction, and call handling efficiency. |
+| **[💼 TechCorp Business Performance Analysis](./05_techcorp_analysis)** | Business Operations | SQL (MySQL) | Analyzes customer purchasing behavior, product performance, revenue, and customer support operations. |
+| **[💰 Data Science Salary Analysis](./02_data_science_salary_analysis)** | Human Resources | SQL | Explores salary trends in data science roles based on experience, employment type, job title, and location. |
+| **[👍 Social Media Reaction Analysis](./03_reaction_analysis)** | Social Media Analytics | Python | Explores user engagement patterns and reaction trends through exploratory data analysis and visualization. |
+
+> **Note:** Projects are organized by business case rather than by analytical tools to better demonstrate complete end-to-end analytics workflows.
+
+---
+
+## Skills Demonstrated
+
+Across these projects, I have applied:
+
+- Data Cleaning & Preparation
+- SQL Querying
+- Data Integration
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Dashboard Development
+- Business Insight Generation
+- Storytelling with Data
+
+---
+
+## Connect With Me
+
+- **LinkedIn:** https://www.linkedin.com/in/dyonsetio/
+- **GitHub:** https://github.com/dyonsetio21
+- **Medium:** https://medium.com/@dyonsetio
+- **Email:** dyon.setio21@gmail.com
