@@ -1,5 +1,3 @@
-SQL PHASE 4
-
 -- PHASE 4: INFLATION DATA UNDERSTANDING
 
 -- ======================================================
