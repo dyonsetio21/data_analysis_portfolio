@@ -21,7 +21,7 @@ This repository showcases a collection of end-to-end data analytics projects cov
 
 | Project | Domain | Tools | Description |
 |---------|--------|-------|-------------|
-| **[🌶️ Food Price Volatility & Inflation Analysis](./09_food_price_volatility_and_inflation_analysis)** | Economic Analysis | SQL, Power BI | Analyzes food price volatility and inflation trends across Indonesian commodities to identify price fluctuations, inflation patterns, and potential risks for decision-making. |
+| **[🌶️ Food Price Volatility & Inflation Analysis](./09_food_price_volatility_analysis)** | Economic Analysis | SQL, Power BI | Analyzes food price volatility and inflation trends across Indonesian commodities to identify price fluctuations, inflation patterns, and potential risks for decision-making. |
 | **[🌍 Global Digital Divide Analysis](./08_digital_divide_analysis)** | Socioeconomic | SQL, Power BI | Explores global internet adoption trends and their relationship with GDP per capita, education, and population across 221 countries (2010–2024). |
 | **[🚲 Cyclistic Bike-Share Rider Behavior Analysis](./06_cyclistic_bike_share_analysis)** | Transportation | Python, Tableau | Analyzes behavioral differences between casual riders and annual members to support membership growth strategies. |
 | **[🛒 Marketplace Sales Analysis](./01_marketplace_sales_analysis)** | E-commerce | SQL, Python, Looker Studio | End-to-end analysis of marketplace transaction data, including SQL analysis, Python EDA, and interactive dashboard development. |
