@@ -1,0 +1,2142 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.IndividualControlFormatting.true...IndividualControlFormatting />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Book1_17854100464170' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' inline='true' name='federated.028p2el0b7ta021ef6rl60ekli55' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='01 Call-Center-Dataset Clean' name='excel-direct.1peihng1uyvsci10fc22l04p4tiq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/07. PORTFOLIO/Portofolio/forage/Forage/Power BI/tugas 1/01 Call-Center-Dataset Clean.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1peihng1uyvsci10fc22l04p4tiq' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K4055:no:A1:K4055:0' header='yes' outcome='6'>
+            <column datatype='string' name='Call Id' ordinal='0' />
+            <column datatype='string' name='Agent' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy-MM-dd' name='Date' ordinal='2' />
+            <column datatype='datetime' name='Time' ordinal='3' />
+            <column datatype='string' name='Topic' ordinal='4' />
+            <column datatype='string' name='Answered (Y/N)' ordinal='5' />
+            <column datatype='string' name='Resolved' ordinal='6' />
+            <column datatype='integer' name='Speed of answer in seconds' ordinal='7' />
+            <column datatype='integer' name='AvgTalkDuration' ordinal='8' />
+            <column datatype='integer' name='Satisfaction rating' ordinal='9' />
+            <column datatype='date' name='datepalsu' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K4055:no:A1:K4055:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Call Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Call Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Call Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Agent]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Agent</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Topic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Topic]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Topic</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Answered (Y/N)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Answered (Y/N)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Answered (Y/N)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resolved</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Resolved]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Resolved</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Speed of answer in seconds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Speed of answer in seconds]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Speed of answer in seconds</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AvgTalkDuration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AvgTalkDuration]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AvgTalkDuration</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Satisfaction rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Satisfaction rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Satisfaction rating</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datepalsu</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[datepalsu]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>datepalsu</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163539457:qk]&quot;' value='Resolved' />
+          <alias key='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]&quot;' value='Resulution (%)' />
+          <alias key='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]&quot;' value='Avg Speed (s)' />
+        </aliases>
+      </column>
+      <column caption='Avg Talk Duration' datatype='integer' name='[AvgTalkDuration]' role='measure' type='quantitative' />
+      <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Call Id])' />
+      </column>
+      <column caption='Total Resolved' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163539457]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF [Resolved] = &apos;Y&apos; THEN 1 ELSE 0 END)' />
+      </column>
+      <column caption='Resolution Rate (%)' datatype='real' default-format='p0.0%' name='[Calculation_743093967163850754]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_743093967163539457]/[Calculation_743093967163412480]' />
+      </column>
+      <column caption='Avg Speed of Answer (Sec)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_743093967163969539]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Speed of answer in seconds])' />
+      </column>
+      <column caption='Avg CSAT' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164096516]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Satisfaction rating])' />
+      </column>
+      <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+      </column>
+      <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]' role='measure' type='quantitative' />
+      <column caption='Datepalsu' datatype='date' name='[datepalsu]' role='dimension' type='ordinal' />
+      <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_743093967163412480]' derivation='User' name='[usr:Calculation_743093967163412480:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_743093967163539457]' derivation='User' name='[usr:Calculation_743093967163539457:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_743093967163850754]' derivation='User' name='[usr:Calculation_743093967163850754:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_743093967163969539]' derivation='User' name='[usr:Calculation_743093967163969539:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_743093967164096516]' derivation='User' name='[usr:Calculation_743093967164096516:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Hour of Call,WEEKDAY(Date))' hidden='true' name='[Action (Hour of Call,WEEKDAY(Date))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+          <groupfilter function='level-members' level='[wd:Date:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Topic)' hidden='true' name='[Action (Topic)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Topic]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/0987/AppData/Local/Temp/TableauTemp/#TableauTemp_1pxbt4j0ab1azl0zun4ik0spf6j2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/30/2026 02:32:42 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table'>
+            <columns>
+              <column datatype='date' date-parse-format='yyyy-MM-dd' name='Date' />
+            </columns>
+          </relation>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Call Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Call Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Call Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4054</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Agent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Agent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Agent</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>7</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>412</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Topic</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Topic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Topic</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Answered (Y/N)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Answered (Y/N)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Answered (Y/N)</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Resolved</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Resolved]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Resolved</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Speed of answer in seconds</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Speed of answer in seconds]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Speed of answer in seconds</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>116</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AvgTalkDuration</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AvgTalkDuration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AvgTalkDuration</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>432</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Satisfaction rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Satisfaction rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Satisfaction rating</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>datepalsu</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[datepalsu]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>datepalsu</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#073e92'>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945'>
+            <properties context=''>
+              <relation connection='excel-direct.1peihng1uyvsci10fc22l04p4tiq' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K4055:no:A1:K4055:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Call Id' ordinal='0' />
+                  <column datatype='string' name='Agent' ordinal='1' />
+                  <column datatype='date' date-parse-format='yyyy-MM-dd' name='Date' ordinal='2' />
+                  <column datatype='datetime' name='Time' ordinal='3' />
+                  <column datatype='string' name='Topic' ordinal='4' />
+                  <column datatype='string' name='Answered (Y/N)' ordinal='5' />
+                  <column datatype='string' name='Resolved' ordinal='6' />
+                  <column datatype='integer' name='Speed of answer in seconds' ordinal='7' />
+                  <column datatype='integer' name='AvgTalkDuration' ordinal='8' />
+                  <column datatype='integer' name='Satisfaction rating' ordinal='9' />
+                  <column datatype='date' name='datepalsu' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy-MM-dd' name='Date' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_D45720BED9B7429994811BA02405CDDF]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Topic Breakdown' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3_D550F33C93904115B8703E55117EA2B2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Peak Call Hours Heatmap' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Agent Leaderboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Medium' fontsize='11'>&lt;Sheet Name&gt;</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#666666' fontsize='9'>Individual Quality &amp; Resolution Metrics</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column datatype='string' name='[Agent]' role='dimension' type='nominal' />
+            <column caption='Avg Talk Duration' datatype='integer' name='[AvgTalkDuration]' role='measure' type='quantitative' />
+            <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Call Id])' />
+            </column>
+            <column caption='Total Resolved' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163539457]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [Resolved] = &apos;Y&apos; THEN 1 ELSE 0 END)' />
+            </column>
+            <column caption='Resolution Rate (%)' datatype='real' default-format='p0.0%' name='[Calculation_743093967163850754]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_743093967163539457]/[Calculation_743093967163412480]' />
+            </column>
+            <column caption='Avg Speed of Answer (Sec)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_743093967163969539]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Speed of answer in seconds])' />
+            </column>
+            <column caption='Avg CSAT' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164096516]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Satisfaction rating])' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='string' name='[Call Id]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Resolved]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Satisfaction rating]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Speed of answer in seconds]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Agent]' derivation='None' name='[none:Agent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AvgTalkDuration]' derivation='Sum' name='[sum:AvgTalkDuration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='Sum' name='[sum:Calculation_743093967164178437:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Satisfaction rating]' derivation='Sum' name='[sum:Satisfaction rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Speed of answer in seconds]' derivation='Sum' name='[sum:Speed of answer in seconds:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967163412480]' derivation='User' name='[usr:Calculation_743093967163412480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967163539457]' derivation='User' name='[usr:Calculation_743093967163539457:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967163850754]' derivation='User' name='[usr:Calculation_743093967163850754:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967163969539]' derivation='User' name='[usr:Calculation_743093967163969539:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967164096516]' derivation='User' name='[usr:Calculation_743093967164096516:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163539457:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163539457:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[sum:AvgTalkDuration:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[__tableau_internal_object_id__].[cnt:Sheet1_29DC9DFED1CF4A84BF6F9C1F2C761945:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[sum:Calculation_743093967164178437:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[sum:Satisfaction rating:qk]&quot;</bucket>
+              <bucket>&quot;[federated.028p2el0b7ta021ef6rl60ekli55].[sum:Speed of answer in seconds:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='200' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='8' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='20' />
+            <format attr='background-color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='#0d47a1' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='background-color' value='#0d47a1' />
+            <format attr='font-weight' value='normal' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-weight' value='bold' />
+            <format attr='text-decoration' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='8' />
+            <format attr='wrap' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='on' />
+            <format attr='text-align' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='center' />
+            <format attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='#ffffff' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='3.3999999999999999' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' max='3.5' min='3.2999999999999998' num-steps='5' palette='red_green_diverging_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' min='0.01' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d8d8d8</color>
+                <color>#c0c0c0</color>
+                <color>#a8a8a8</color>
+                <color>#909090</color>
+                <color>#787878</color>
+                <color>#606060</color>
+                <color>#484848</color>
+                <color>#303030</color>
+                <color>#181818</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' min='0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d8d8d8</color>
+                <color>#c0c0c0</color>
+                <color>#a8a8a8</color>
+                <color>#909090</color>
+                <color>#787878</color>
+                <color>#606060</color>
+                <color>#484848</color>
+                <color>#303030</color>
+                <color>#181818</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163539457:qk]' min='0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d8d8d8</color>
+                <color>#c0c0c0</color>
+                <color>#a8a8a8</color>
+                <color>#909090</color>
+                <color>#787878</color>
+                <color>#606060</color>
+                <color>#484848</color>
+                <color>#303030</color>
+                <color>#181818</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]' min='0.0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d8d8d8</color>
+                <color>#c0c0c0</color>
+                <color>#a8a8a8</color>
+                <color>#909090</color>
+                <color>#787878</color>
+                <color>#606060</color>
+                <color>#484848</color>
+                <color>#303030</color>
+                <color>#181818</color>
+                <color>#000000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.028p2el0b7ta021ef6rl60ekli55].[Multiple Values]' separate-domains='true' />
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.028p2el0b7ta021ef6rl60ekli55].[Multiple Values]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.028p2el0b7ta021ef6rl60ekli55].[none:Agent:nk]</rows>
+        <cols>[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{46691484-FD18-4C92-82C6-1C120F84D344}' />
+    </worksheet>
+    <worksheet name='KPI - Avg CSAT'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Avg CSAT' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164096516]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Satisfaction rating])' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Satisfaction rating]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967164096516]' derivation='User' name='[usr:Calculation_743093967164096516:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='246' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#555555' fontname='Tableau Medium'>AVG SATISFACTION</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='18'><![CDATA[<[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]> / 5]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#898989' fontsize='8'>Overall CSAT Score</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1D6CBF0C-0400-4B20-BF7A-142F6C73D548}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Speed of Answer (Sec)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Avg Speed of Answer (Sec)' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_743093967163969539]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Speed of answer in seconds])' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Speed of answer in seconds]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967163969539]' derivation='User' name='[usr:Calculation_743093967163969539:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='246' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#555555' fontname='Tableau Medium'>AVG SPEED OF ANSWER</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='18'><![CDATA[<[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]> s]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#898989' fontsize='8'>Target Threshold &lt; 30 s</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E6DF0AC8-F122-464E-9CF5-5EC88B1C9FC1}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Talk Duration'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Avg Talk Duration' datatype='integer' name='[AvgTalkDuration]' role='measure' type='quantitative' />
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[AvgTalkDuration]' derivation='Avg' name='[avg:AvgTalkDuration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='241' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[avg:AvgTalkDuration:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#555555' fontname='Tableau Medium'>AVG TALK DURATION</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='18'><![CDATA[<[federated.028p2el0b7ta021ef6rl60ekli55].[avg:AvgTalkDuration:qk]> s]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='8'>xxxxxxxxxxxxx</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{70D18C34-3C14-4CF4-A0CC-7D085ADCA93E}' />
+    </worksheet>
+    <worksheet name='KPI - Resolution Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Call Id])' />
+            </column>
+            <column caption='Total Resolved' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163539457]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [Resolved] = &apos;Y&apos; THEN 1 ELSE 0 END)' />
+            </column>
+            <column caption='Resolution Rate (%)' datatype='real' default-format='p0.0%' name='[Calculation_743093967163850754]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_743093967163539457]/[Calculation_743093967163412480]' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='string' name='[Call Id]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Resolved]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967163850754]' derivation='User' name='[usr:Calculation_743093967163850754:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='245' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#555555' fontname='Tableau Medium'>RESULUTION RATE</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='18'><![CDATA[<[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#898989' fontsize='8'>2,956 Resolved</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{84FD8399-C22C-4C48-9C34-6DBC65BB8EE2}' />
+    </worksheet>
+    <worksheet name='KPI - Total Calls'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Call Id])' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='string' name='[Call Id]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967163412480]' derivation='User' name='[usr:Calculation_743093967163412480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='222' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#555555' fontname='Tableau Medium'>TOTAL CALLS</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='18'><![CDATA[<[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#898989' fontsize='8'>100% Incoming Calls</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C42429AE-2693-450F-B8BB-C5786F384DB4}' />
+    </worksheet>
+    <worksheet name='Monthly Call Trend'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1e293b' fontname='Tableau Medium' fontsize='11'>&lt;Sheet Name&gt;</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#666666' fontsize='9'>CSAT (</run>
+            <run bold='true' fontcolor='#666666' fontsize='9' italic='true'>Customer Satisfaction</run>
+            <run bold='true' fontcolor='#666666' fontsize='9'>)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Call Id])' />
+            </column>
+            <column caption='Avg CSAT' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164096516]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Satisfaction rating])' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='string' name='[Call Id]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Satisfaction rating]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='MY' name='[my:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967163412480]' derivation='User' name='[usr:Calculation_743093967163412480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967164096516]' derivation='User' name='[usr:Calculation_743093967164096516:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.028p2el0b7ta021ef6rl60ekli55].[my:Date:ok]' value='108' />
+            <format attr='font-weight' data-class='subtotal' scope='cols' value='normal' />
+            <format attr='font-weight' data-class='subtotal' scope='rows' value='normal' />
+            <format attr='text-decoration' data-class='subtotal' scope='rows' value='none' />
+            <format attr='font-style' data-class='subtotal' scope='rows' value='normal' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-style' scope='rows' value='normal' />
+            <format attr='font-size' scope='rows' value='8' />
+            <format attr='font-weight' scope='rows' value='normal' />
+            <format attr='font-size' scope='cols' value='8' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' value='8' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' value='normal' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='8' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='normal' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[my:Date:ok]' value='8' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[my:Date:ok]' value='normal' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='normal' />
+            <format attr='text-decoration' value='none' />
+          </style-rule>
+          <_.fcp.IndividualControlFormatting.true...style-rule element='legend'>
+            <_.fcp.IndividualControlFormatting.true...format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' id='legend-color' value='8' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-family' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' id='legend-color' value='Tableau Regular' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' id='legend-color' value='normal' />
+          </_.fcp.IndividualControlFormatting.true...style-rule>
+          <_.fcp.IndividualControlFormatting.true...style-rule element='legend-title'>
+            <_.fcp.IndividualControlFormatting.true...format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' id='legend-color' value='8' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-family' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' id='legend-color' value='Tableau Regular' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' id='legend-color' value='bold' />
+          </_.fcp.IndividualControlFormatting.true...style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk] + [federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk])</rows>
+        <cols>[federated.028p2el0b7ta021ef6rl60ekli55].[my:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{FE3EC1FA-DEC5-4E47-9CEC-0C9D6C96B759}' />
+    </worksheet>
+    <worksheet name='Peak Call Hours Heatmap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Medium' fontsize='11'>&lt;Sheet Name&gt;</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#666666' fontsize='9'>Call Density by Day of Week &amp; Hour</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Call Id])' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='string' name='[Call Id]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_743093967163412480]' derivation='User' name='[usr:Calculation_743093967163412480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]'>
+            <groupfilter function='level-members' level='[Topic]' user:ui-action-filter='[Action2_ABAE279850FC4DE79AB01EE96EEB0975]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Topic)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='112' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='8' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='bold' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' value='normal' />
+            <format attr='font-weight' value='normal' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' value='52' />
+            <format attr='height' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='19' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' value='normal' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' value='8' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='normal' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='8' />
+            <format attr='font-weight' scope='cols' value='normal' />
+            <format attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]' value='#000000' />
+            <format attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]' value='#000000' />
+            <format attr='font-weight' scope='rows' value='normal' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' min='-50' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d3dbe9</color>
+                <color>#b7c7e1</color>
+                <color>#9db4d9</color>
+                <color>#84a2d1</color>
+                <color>#6c90c9</color>
+                <color>#5680c1</color>
+                <color>#4170b9</color>
+                <color>#2e61b1</color>
+                <color>#1d53a9</color>
+                <color>#0d47a1</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-size' value='8' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='normal' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' />
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Regular'>&lt;</run>
+                <run fontcolor='#e6e6e6' fontname='Tableau Regular'>[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]</run>
+                <run fontcolor='#e6e6e6' fontname='Tableau Regular'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.028p2el0b7ta021ef6rl60ekli55].[none:Calculation_743093967164178437:ok]</rows>
+        <cols>[federated.028p2el0b7ta021ef6rl60ekli55].[wd:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{33FF77F5-B201-452F-896D-A0064CAA969A}' />
+    </worksheet>
+    <worksheet name='Topic Breakdown'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Medium' fontsize='11'>&lt;Sheet Name&gt;</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#666666' fontsize='9'>Top Customer Inquiries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (01 Call-Center-Dataset Clean)' name='federated.028p2el0b7ta021ef6rl60ekli55' />
+          </datasources>
+          <datasource-dependencies datasource='federated.028p2el0b7ta021ef6rl60ekli55'>
+            <column caption='Total Calls' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163412480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Call Id])' />
+            </column>
+            <column caption='Total Resolved' datatype='integer' default-format='n#,##0;-#,##0' name='[Calculation_743093967163539457]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [Resolved] = &apos;Y&apos; THEN 1 ELSE 0 END)' />
+            </column>
+            <column caption='Resolution Rate (%)' datatype='real' default-format='p0.0%' name='[Calculation_743093967163850754]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_743093967163539457]/[Calculation_743093967163412480]' />
+            </column>
+            <column caption='Hour of Call' datatype='integer' default-format='n#,##0.00;-#,##0.00' name='[Calculation_743093967164178437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;,[Time])' />
+            </column>
+            <column datatype='string' name='[Call Id]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Resolved]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Topic]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_743093967164178437]' derivation='None' name='[none:Calculation_743093967164178437:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Topic]' derivation='None' name='[none:Topic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_743093967163412480]' derivation='User' name='[usr:Calculation_743093967163412480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_743093967163850754]' derivation='User' name='[usr:Calculation_743093967163850754:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_D550F33C93904115B8703E55117EA2B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_743093967164178437:ok]' />
+              <groupfilter function='level-members' level='[wd:Date:ok]' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.028p2el0b7ta021ef6rl60ekli55].[Action (Hour of Call,WEEKDAY(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='normal' />
+            <format attr='text-align' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='auto' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='8' />
+            <format attr='font-family' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='Tableau Light' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]' value='right' />
+            <format attr='wrap' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]' value='auto' />
+            <format attr='vertical-align' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]' value='auto' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='normal' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='8' />
+            <format attr='font-style' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' value='normal' />
+            <format attr='font-size' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]' value='8' />
+            <format attr='font-weight' field='[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]' value='normal' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' max='0.93428571400000004' min='0.87429752100000002' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d3dbe9</color>
+                <color>#b7c7e1</color>
+                <color>#9db4d9</color>
+                <color>#84a2d1</color>
+                <color>#6c90c9</color>
+                <color>#5680c1</color>
+                <color>#4170b9</color>
+                <color>#2e61b1</color>
+                <color>#1d53a9</color>
+                <color>#0d47a1</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-size' value='5' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <_.fcp.IndividualControlFormatting.true...format attr='text-align' field='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' id='legend-color' value='auto' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' />
+              <text column='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.028p2el0b7ta021ef6rl60ekli55].[none:Topic:nk]</rows>
+        <cols>[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]</cols>
+      </table>
+      <simple-id uuid='{FBECC186-8336-476A-BED2-3F8200901B0A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f4f6f8' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='51302' id='14' param='horz' type-v2='layout-flow' w='98828' x='586' y='11458'>
+            <zone h='51302' id='3' param='vert' type-v2='layout-flow' w='98828' x='586' y='11458'>
+              <zone fixed-size='104' h='13542' id='5' is-fixed='true' param='horz' type-v2='layout-flow' w='98828' x='586' y='11458'>
+                <zone fixed-size='257' h='13542' id='6' is-fixed='true' name='KPI - Total Calls' show-title='false' w='19765' x='586' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='8' />
+                    <format attr='padding' value='0' />
+                    <format attr='padding-top' value='4' />
+                    <format attr='padding-left' value='8' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='257' h='13542' id='7' is-fixed='true' name='KPI - Resolution Rate' show-title='false' w='19765' x='20351' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='8' />
+                    <format attr='padding' value='0' />
+                    <format attr='padding-top' value='4' />
+                    <format attr='padding-left' value='8' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='257' h='13542' id='8' is-fixed='true' name='KPI - Avg CSAT' show-title='false' w='19765' x='40116' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='8' />
+                    <format attr='padding-top' value='4' />
+                    <format attr='padding-left' value='8' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='257' h='13542' id='9' is-fixed='true' name='KPI - Avg Speed of Answer (Sec)' show-title='false' w='19765' x='59881' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='8' />
+                    <format attr='padding-top' value='8' />
+                    <format attr='padding-left' value='4' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='257' h='13542' id='10' is-fixed='true' name='KPI - Avg Talk Duration' show-title='false' w='19768' x='79646' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='8' />
+                    <format attr='padding-top' value='4' />
+                    <format attr='padding-left' value='8' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='37760' id='24' is-fixed='true' type-v2='layout-basic' w='98828' x='586' y='25000'>
+                <zone h='37760' id='11' param='horz' type-v2='layout-flow' w='49414' x='586' y='25000'>
+                  <zone fixed-size='667' h='37760' id='12' is-fixed='true' name='Monthly Call Trend' w='49414' x='586' y='25000'>
+                    <layout-cache minheight='166' type-h='scalable' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='8' />
+                      <format attr='padding' value='4' />
+                      <format attr='padding-top' value='2' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='37760' id='25' param='horz' type-v2='layout-flow' w='49414' x='50000' y='25000'>
+                  <zone fixed-size='667' h='37760' id='16' is-fixed='true' name='Topic Breakdown' w='49414' x='50000' y='25000'>
+                    <layout-cache fixed-size-h='233' minwidth='240' type-h='fixed' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='8' />
+                      <format attr='padding' value='4' />
+                      <format attr='padding-top' value='2' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='36198' id='18' param='vert' type-v2='layout-flow' w='98828' x='586' y='62760'>
+            <zone h='36197' id='19' param='horz' type-v2='layout-flow' w='98828' x='586' y='62760'>
+              <zone fixed-size='667' h='36197' id='20' is-fixed='true' name='Peak Call Hours Heatmap' w='49414' x='586' y='62760'>
+                <layout-cache cell-count-h='10' non-cell-size-h='81' type-h='cell' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='8' />
+                  <format attr='padding' value='4' />
+                  <format attr='padding-top' value='2' />
+                  <format attr='background-color' value='#ffffff' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='667' h='36197' id='22' is-fixed='true' name='Agent Leaderboard' w='49414' x='50000' y='62760'>
+                <layout-cache cell-count-h='8' non-cell-size-h='81' type-h='cell' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='8' />
+                  <format attr='padding' value='4' />
+                  <format attr='padding-top' value='2' />
+                  <format attr='background-color' value='#ffffff' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='10416' id='26' type-v2='text' w='98828' x='586' y='1042'>
+            <formatted-text>
+              <run bold='true' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='16'>CALL CENTER OPERATIONAL &amp; PERFORMANCE DASHBOARD</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#d4d4d4' fontname='Tableau Light' fontsize='10'>Executive Overview &amp; Agent Quality Analytics | Q1 2021</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+              <format attr='margin-bottom' value='0' />
+              <format attr='padding' value='5' />
+              <format attr='padding-top' value='5' />
+              <format attr='padding-bottom' value='5' />
+              <format attr='padding-left' value='9' />
+              <format attr='background-color' value='#0d47a1' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='2865' id='15' leg-item-layout='horz' name='Monthly Call Trend' pane-specification-id='1' param='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' show-title='false' type-v2='color' w='17789' x='31259' y='27865' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='50' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='49' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone forceUpdate='true' h='10416' id='26' type-v2='text' w='98828' x='586' y='1042'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='16'>CALL CENTER OPERATIONAL &amp; PERFORMANCE DASHBOARD</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#d4d4d4' fontname='Tableau Light' fontsize='10'>Executive Overview &amp; Agent Quality Analytics | Q1 2021</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#0d47a1' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='13542' id='6' is-fixed='true' name='KPI - Total Calls' show-title='false' w='19765' x='586' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='13542' id='7' is-fixed='true' name='KPI - Resolution Rate' show-title='false' w='19765' x='20351' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='13542' id='8' is-fixed='true' name='KPI - Avg CSAT' show-title='false' w='19765' x='40116' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='80' h='13542' id='9' is-fixed='true' name='KPI - Avg Speed of Answer (Sec)' show-title='false' w='19765' x='59881' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='13542' id='10' is-fixed='true' name='KPI - Avg Talk Duration' show-title='false' w='19768' x='79646' y='11458'>
+                  <layout-cache fixed-size-h='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='268' h='37760' id='12' is-fixed='true' name='Monthly Call Trend' w='49414' x='586' y='25000'>
+                  <layout-cache minheight='166' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone h='2865' id='15' leg-item-layout='horz' name='Monthly Call Trend' pane-specification-id='1' param='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' show-title='false' type-v2='color' w='17789' x='31259' y='27865'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='268' h='37760' id='16' is-fixed='true' name='Topic Breakdown' w='49414' x='50000' y='25000'>
+                  <layout-cache fixed-size-h='233' minwidth='240' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' h='36197' id='20' is-fixed='true' name='Peak Call Hours Heatmap' w='49414' x='586' y='62760'>
+                  <layout-cache type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' h='36197' id='22' is-fixed='true' name='Agent Leaderboard' w='49414' x='50000' y='62760'>
+                  <layout-cache type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5BBE8779-826B-4053-8BBD-16B0281AE356}' />
+    </dashboard>
+  </dashboards>
+  <windows show-side-pane='false' source-height='37'>
+    <window class='worksheet' name='KPI - Total Calls'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{88AE95DA-6AFA-4218-B2BC-8F481681DAB2}' />
+    </window>
+    <window class='worksheet' name='KPI - Resolution Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC95A14B-F67A-4855-8025-773171380868}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg CSAT'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{012AF33D-E365-4640-B14A-209E155F3404}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Speed of Answer (Sec)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DEABC875-CD27-44A6-BDD5-73F335782B90}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Talk Duration'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FA487133-2E68-4ADA-AB00-1161DA63A1BF}' />
+    </window>
+    <window class='worksheet' name='Topic Breakdown'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{767CBD10-5515-4CBD-B70C-18F77F3E0018}' />
+    </window>
+    <window class='worksheet' name='Peak Call Hours Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A02A6804-C0A3-4C6C-85F2-493C4D9BCDBE}' />
+    </window>
+    <window class='worksheet' name='Monthly Call Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.028p2el0b7ta021ef6rl60ekli55].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D83D5DF-8F48-4B54-9AFB-64D519A27225}' />
+    </window>
+    <window class='worksheet' name='Agent Leaderboard'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163412480:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163539457:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163850754:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967163969539:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.028p2el0b7ta021ef6rl60ekli55].[usr:Calculation_743093967164096516:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{6A9ED5AC-F5E2-46D3-AE57-919C0E6FB41D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Agent Leaderboard'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - Avg CSAT' />
+        <viewpoint name='KPI - Avg Speed of Answer (Sec)' />
+        <viewpoint name='KPI - Avg Talk Duration' />
+        <viewpoint name='KPI - Resolution Rate' />
+        <viewpoint name='KPI - Total Calls'>
+          <floating-toolbar-visibility value='2' />
+        </viewpoint>
+        <viewpoint name='Monthly Call Trend'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Peak Call Hours Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Topic Breakdown'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{EA312E2B-3913-4E84-A2E4-B6736B1F6C79}' />
+    </window>
+  </windows>
+</workbook>
