@@ -1,151 +1,100 @@
-# Call Center Performance Dashboard
+# Call Center Operational & Performance Dashboard
 
 ## Project Overview
 
-This project analyzes call center operational performance using Power BI. The dashboard provides insights into call handling efficiency, agent performance, customer satisfaction, and issue resolution to help managers monitor service quality and identify opportunities for operational improvement.
+This project is an advanced re-architecting and enhancement of a call center operational analytics project originally completed as part of the **PwC Switzerland Power BI Virtual Experience Program on Forage**.
 
-The project was completed as part of the **PwC Switzerland Power BI Virtual Experience Program** on Forage.
+While the initial simulation provided a basic operational overview in Power BI, this project rebuilds and elevates the dashboard using **Tableau Desktop / Tableau Public**. The goal is to provide deeper, highly actionable insights—including peak call density analysis, topic breakdown, and individual agent performance quality matrices—to help call center managers optimize service quality and workforce allocation.
+
+---
+
+## What’s New in This Version (Re-Architecture & Enhancements)
+
+Compared to the baseline solution, this enhanced Tableau dashboard introduces:
+- **Redesigned Modern Card Layout:** Clean UI with dark navy executive headers, structured cards, and uniform padding for seamless readability.
+- **Peak Call Hours Heatmap:** A new time-density matrix (Day of Week vs. Hour) to identify operational bottlenecks and assist in shift scheduling.
+- **CSAT Conditional Formatting:** Targeted color-coding on agent CSAT ratings to immediately distinguish top performers from agents needing coaching.
+- **Dual-Axis Volume & CSAT Trend:** Integrated monthly trend analysis comparing total call volume against customer satisfaction scores.
+- **Interactive Cross-Filtering:** Enabled full dashboard interaction using Tableau Actions, allowing dynamic filtering by topic, agent, or peak hour.
 
 ---
 
 ## Business Problem
 
-Call centers rely on operational KPIs to maintain service quality and customer satisfaction. Monitoring metrics such as response time, call resolution, and agent performance enables managers to identify bottlenecks and improve customer experience.
+Call center operations require constant monitoring to balance customer satisfaction with staffing efficiency. Without granular insights into *when* call volume peaks or *which* specific topics drive customer inquiries, management struggles with delayed response times and inconsistent service resolution.
 
-This project answers several business questions, including:
-
-- How efficiently are incoming calls being handled?
-- How well are agents performing?
-- How satisfied are customers with the service?
-- How effective is the call resolution process?
-- Are there any trends in call volume over time?
+Key business questions addressed in this analysis:
+1. **Operational Efficiency:** What is the average response time and overall call resolution rate?
+2. **Workforce Allocation:** At what specific days and hours do call volumes peak?
+3. **Agent Quality:** Which agents maintain high CSAT scores while handling high call volumes, and who requires coaching?
+4. **Customer Drivers:** What inquiry topics drive the highest volume of calls?
 
 ---
 
-## Project Objectives
+## Dataset Overview
 
-- Monitor key call center performance indicators
-- Evaluate agent productivity and customer satisfaction
-- Analyze call handling and resolution efficiency
-- Build an interactive dashboard for operational monitoring
-- Provide actionable recommendations to improve service quality
+The analysis uses the call center dataset provided by **PwC Switzerland (Forage)**, covering Q1 2021 (January – March 2021) with 4,054 records:
 
----
-
-## Dataset
-
-Dataset provided through the **PwC Switzerland Power BI Virtual Experience Program (Forage).**
-
-The dataset contains call center activity from **January to March 2021**, including information such as:
-
-- Call Status
-- Answer Speed
-- Talk Duration
-- Resolution Status
-- Customer Satisfaction Rating
-- Agent Performance
-- Call Date
+- **Call Identification & Agent:** Call ID, Assigned Agent
+- **Timestamps:** Date, Time, Hour of Call
+- **Operational Metrics:** Speed of Answer (sec), Talk Duration (sec)
+- **Status & Outcome:** Answer Status (Y/N), Resolution Status (Y/N)
+- **Quality & Topic:** Inquiry Topic, Customer Satisfaction Rating (1–5)
 
 ---
 
-## Tools
+## Tools Used
 
-- Microsoft Power BI
-
----
-
-## Project Workflow
-
-```
-Data Preparation
-        ↓
-Data Modeling
-        ↓
-Dashboard Development
-        ↓
-KPI Analysis
-        ↓
-Business Insights
-```
+- **Tableau Desktop / Tableau Public** (Dashboarding, LOD Calculations, & Data Visualization)
+- **Microsoft Excel / Python (Pandas)** (Initial Data Inspection & Preparation)
 
 ---
 
-# Dashboard Preview
+## Dashboard Preview
 
-![dashboard](https://github.com/dyonsetio21/data_analysis_portfolio/blob/main/04_call_center_performance_dashboard/Dashboard.png)
+![Call Center Operational & Performance Dashboard](Tableau/Call%20Center%20Operational%20%26%20Performance%20Dashboard.png)
 
----
-
-## Dashboard Highlights
-
-The dashboard provides an overview of:
-
-- Total Calls
-- Answered vs Missed Calls
-- Resolution Rate
-- Average Speed to Answer
-- Customer Satisfaction Score
-- Agent Performance Comparison
-- Monthly Call Volume
+> 🔗 **Interactive Version:** [View Live Dashboard on Tableau Public](https://public.tableau.com/views/CallCenterOperationalPerformanceDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-# Key Findings
+## Key Performance Indicators (Q1 2021 Summary)
 
-## 1. Call Handling Efficiency
-
-### Insights
-
-- 81.08% of incoming calls were answered, while 18.92% were missed.
-- The average speed to answer was **67.52 seconds**.
-- 72.92% of calls were successfully resolved, leaving over one-quarter unresolved.
-
----
-
-## 2. Agent Performance
-
-### Insights
-
-- Agents handled an average of **456 calls** during the three-month period.
-- Jim handled the highest number of calls (485), but his customer satisfaction score was below average.
-- Martha maintained one of the highest satisfaction ratings while handling a similar workload.
-- The average talk duration was **224.92 seconds** (approximately 3.7 minutes).
+- **Total Calls:** 4,054 calls
+- **Answered Rate:** 81.1% (3,287 handled calls)
+- **Resolution Rate:** 89.9% (2,956 calls resolved)
+- **Avg Speed of Answer (ASA):** 67.5 seconds
+- **Avg Handling / Talk Duration:** 224.9 seconds (~3.7 minutes)
+- **Avg Customer Satisfaction (CSAT):** 3.40 / 5.00
 
 ---
 
-## 3. Customer Satisfaction
+## Key Business Insights
 
-### Insights
+### 1. Operational Bottlenecks & Response Time
+* **High Resolution, Delayed Response:** While the resolution rate is strong at **89.9%**, the average speed of answer is **67.5 seconds**—significantly above the industry target threshold of under 30 seconds.
 
-- The overall customer satisfaction score was **3.40 out of 5**.
-- No agent achieved an average satisfaction score above **3.50**, indicating opportunities to improve service quality.
+### 2. Peak Call Hours Density (Heatmap Analysis)
+* **Shift Optimization:** Call volume peaks consistently between **11:00 AM** and **1:00 PM – 2:00 PM** across weekdays and weekends. Mondays and Saturdays show the highest concentration of late-morning calls, highlighting the need for staggered shift schedules during midday slots.
 
----
+### 3. Customer Inquiry Drivers
+* **Top Topics:** Call volume is heavily driven by **Streaming** (847 calls) and **Payment Related** issues (818 calls), followed by Technical Support (805 calls). These two categories represent primary candidates for automated self-service or FAQ improvements.
 
-## 4. Call Volume Trends
-
-### Insights
-
-- Monthly call volume remained relatively stable:
-  - January: 1,455 calls
-  - February: 1,298 calls
-  - March: 1,301 calls
-- The consistent workload suggests a stable demand for customer support services.
+### 4. Agent Performance & Quality Matrix
+* **Top Quality Performers:** Martha (**3.47 CSAT**) and Dan (**3.45 CSAT**) achieved the highest customer satisfaction ratings while maintaining strong resolution rates above 89%.
+* **Coaching Opportunities:** Joe (**3.33 CSAT**, 71.0s ASA) and Becky (**3.37 CSAT**) recorded lower satisfaction scores and longer response times, signaling a need for targeted service and workflow coaching.
 
 ---
 
-# Business Recommendations
+## Actionable Recommendations
 
-Based on the analysis:
-
-- Reduce missed calls by improving staffing during peak hours or implementing automated call routing.
-- Increase first-call resolution through additional agent training and better access to knowledge resources.
-- Improve customer satisfaction by monitoring recurring issues and following up on unresolved cases.
-- Use agent performance metrics to recognize high-performing employees and identify coaching opportunities.
-- Continuously monitor operational KPIs through interactive dashboards to support data-driven decision making.
+1. **Optimize Staffing Schedules:** Reallocate agent shifts to increase coverage during the **11:00 AM – 2:00 PM** peak window to bring the average speed of answer closer to the <30-second target.
+2. **Deflect High-Volume Inquiries:** Develop automated IVR workflows or self-service options for common **Streaming** and **Payment** inquiries to reduce incoming call pressure.
+3. **Targeted Agent Coaching:** Pair lower-CSAT agents (Joe & Becky) with top-performing mentors (Martha & Dan) to improve call handling quality and reduce resolution delays.
+4. **Monitor Real-Time KPIs:** Utilize the interactive Tableau dashboard for continuous daily monitoring of ASA and resolution rates.
 
 ---
 
-# Resources
+## Acknowledgments
 
-This project was completed as part of the **PwC Switzerland Power BI Virtual Experience Program (Forage).**
+This project dataset and baseline scenario originated from the **PwC Switzerland Power BI Virtual Experience Program on Forage**. All dashboard design enhancements, custom heatmaps, and Tableau re-architecting were independently developed.
