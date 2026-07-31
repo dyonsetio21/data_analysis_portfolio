@@ -52,7 +52,7 @@ The analysis uses the call center dataset provided by **PwC Switzerland (Forage)
 
 ## Dashboard Preview
 
-![Call Center Operational & Performance Dashboard](Tableau/Call%20Center%20Operational%20%26%20Performance%20Dashboard.png)
+![Call Center Operational & Performance Dashboard](tableau/call_center_operational_%26-performance_dashboard.png)
 
 > 🔗 **Interactive Version:** [View Live Dashboard on Tableau Public](https://public.tableau.com/views/CallCenterOperationalPerformanceDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
