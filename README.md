@@ -54,5 +54,6 @@ Across these projects, I have applied:
 
 - **LinkedIn:** https://www.linkedin.com/in/dyonsetio/
 - **GitHub:** https://github.com/dyonsetio21
+- **Tableau Public:** https://public.tableau.com/app/profile/dyon.setio.utomo/vizzes
 - **Medium:** https://medium.com/@dyonsetio
 - **Email:** dyon.setio21@gmail.com
